@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><a href="index.html"></a>🌍 World Clock</h1>
+
+      <select id="cities">
+        <option value="">Select a City</option>
+        <option value="current">My Current Location</option>
+        <option value="Europe/Amsterdam">Amsterdam</option>
+        <option value="America/Bogota">Bogota</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+      </select>
+
+      <div id="city">
+        <div class="city" id="nairobi">
+          <div>
+            <h2>Nairobi</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+
+        <div class="city" id="bangkok">
+          <div>
+            <h2>Bangkok</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      This project was coded with ❤️ by
+      <a href="https://github.com/Mukovhe-Nengovhela" target="_blank">
+        Mukovhe Nengovhela</a
+      >
+      and is on
+      <a href="#" target="_blank">GitHub</a>
+      and hosted on
+      <a href="#" target="_blank">Netifiy</a>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
